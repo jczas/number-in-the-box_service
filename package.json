@@ -1,0 +1,25 @@
+{
+  "name": "number-in-the-box_service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/job.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.6",
+    "azure-iot-device": "^1.1.7",
+    "azure-iot-device-mqtt": "^1.1.7",
+    "azure-iothub": "^1.1.7",
+    "request": "^2.81.0",
+    "stdio": "^0.2.7",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}
